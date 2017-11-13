@@ -1,1 +1,17 @@
 Put your Project 5 brief explanation, as directed, here.
+
+I am accessing the Tumblr API and gathering:
+- 20 posts from NBC News Tumblr blog (http://nbcnews.tumblr.com/) that are text
+  posts.
+- 20 posts from NBC News Tumblr blog (http://nbcnews.tumblr.com/) that are
+  photo posts.
+- I'll write 3 CSV files, one for posts general information, one for text post
+  specific information, and the last one for photo post specific information.
+- Data in each CSV file:
+    Shared among all posts: Blog Name, Post ID, Post Type, Post Date, Post URL
+    Photo specific: Caption, Photo URL
+    Text specific: Title, Body
+- URL for the API documentations: https://www.tumblr.com/docs/en/api/v2
+- URL describing the authentication process for the API:
+    ttps://www.tumblr.com/docs/en/api/v2
+    https://www.tumblr.com/oauth/apps
