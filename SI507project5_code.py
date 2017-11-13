@@ -5,7 +5,6 @@ import webbrowser
 import json
 import csv
 from datetime import datetime
-from pprint import pprint
 
 import secret_data
 
@@ -356,6 +355,7 @@ def print_text_posts_csv(list_post, file_name='text_posts.csv'):
                  post.body.replace('\n', ' '),
                  post.post_date,
                  post.post_url.strip()])
+
 
 if not CONSUMER_KEY or not CONSUMER_SECRET:
     print("You need to fill in sonsumer_key and consumer_secret in the "

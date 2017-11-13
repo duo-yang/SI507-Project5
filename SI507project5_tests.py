@@ -1,5 +1,4 @@
 import unittest
-import copy
 from SI507project5_code import *
 
 
